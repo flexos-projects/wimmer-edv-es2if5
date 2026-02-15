@@ -1,0 +1,28 @@
+---
+const projectName = 'FlexOS Project';
+---
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{projectName}</title>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center">
+  <div class="text-center space-y-6 p-8">
+    <div class="w-16 h-16 mx-auto rounded-2xl bg-purple-500/20 flex items-center justify-center">
+      <svg class="w-8 h-8 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+      </svg>
+    </div>
+    <h1 class="text-4xl font-bold text-white">{projectName}</h1>
+    <p class="text-lg text-purple-200/70">Building something amazing...</p>
+    <div class="flex items-center justify-center gap-1.5">
+      <span class="w-2 h-2 rounded-full bg-purple-400 animate-bounce" style="animation-delay: 0ms"></span>
+      <span class="w-2 h-2 rounded-full bg-purple-400 animate-bounce" style="animation-delay: 150ms"></span>
+      <span class="w-2 h-2 rounded-full bg-purple-400 animate-bounce" style="animation-delay: 300ms"></span>
+    </div>
+    <p class="text-sm text-slate-500">Powered by FlexOS</p>
+  </div>
+</body>
+</html>
